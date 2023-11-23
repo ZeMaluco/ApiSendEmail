@@ -1,0 +1,27 @@
+<!--EMAIL TEMPLATE -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>{{ title }}</title>
+</head>
+<body style="  font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; background-color:#efefef">
+<div style="text-align:left; color: #d8d8d8; padding-right: 14px;padding-top: 5px;padding-left: 14px;padding-bottom: 5px;background-color:#545454; margin:auto; width: 680px;">
+<p><i>{{ title }}</i></p>
+</div>
+<div style="padding:14px; background-color: white; margin:auto; width: 680px;"><!--<a href="{{ store_url }}" title="{{ store_name }}"><img src="{{ logo }}" alt="{{ store_name }}" style="display: block;margin-left: auto; margin-right: auto;margin-bottom: 20px; border: none;" /></a>-->
+
+
+  <h4>Olá {{nome}}</h4>
+  <p>Em relação ao nosso orçamento{{ id }} enviado no dia {{data}} sob  o tema {{ descricao }} pedimos-lhe que
+responda a 2 perguntas rápidas:  </p>
+
+  <p style="margin-top: 0px; margin-bottom: 20px;">{{ text_footer }}</p>
+
+</div>
+<div style="text-align:center; color: #d8d8d8; padding:14px;background-color:#545454; margin:auto; width: 680px;">
+<h3>{{ footer1 }}</h3>
+<!--<p style="color: #ffffff; margin-top: 0px; margin-bottom: 20px;"><a style="color:#d8d8d8;"href="{{ store_url }}" title="{{ store_name_url }}">{{ store_name_url }}</a> | <a style="color:#d8d8d8;" href="{{ account_url }}" title="{{ account_name }}">{{ account_name }}</a> | <a  style="color:#d8d8d8;" href="{{ contact_url }}" title="{{ contact_name }}">{{ contact_name }}</a>-->
+</div>
+</body>
+</html>
